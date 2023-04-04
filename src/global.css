@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    max-width: 460px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+body {
+    animation: gradient 20s alternate infinite;
+    background: linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab) no-repeat;
+    background-size: 300% 300%;
+    /* color: aliceblue; */
+    font-size: 20px;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
